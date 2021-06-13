@@ -1,0 +1,37 @@
+$font-size: 1rem;
+$font-color: lch(53 105 40);
+
+@media(max-width: 120px) {
+    a:hover {
+        color: red;
+    }
+}
+
+html {
+    font-size: $font-size;
+    color: $font-color;
+}
+
+body {
+    display: flex;
+}
+
+@media(max-width: 120px) {
+    font {
+        color: red;
+    }
+}
+
+p {
+    display: flex;
+    font-size: 28px;
+    background: violet;
+    box-shadow: 10px 10px black;
+}
+
+ul {
+    display: flex;
+    font-size: 28px;
+    background: violet;
+    text-decoration: none;
+}
